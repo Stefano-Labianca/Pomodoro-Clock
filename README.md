@@ -1,4 +1,4 @@
-# Pomodoro-Clock
+# Pomodoro Clock
 
 ### Hi everyone, I'm Stefano 
 
