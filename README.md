@@ -8,4 +8,4 @@ make a web app about it!
 ### My Website
 
 If you want to try or just see my website you can check to this link: https://stefano-labianca.github.io/Pomodoro-Clock/
-I hope you can enjoy it and please, if you want you can send me some feedback to my email: stefanol@protonmail.com.
+I hope you can enjoy it and please, if you want you can send me some feedback to my email: lstefano@protonmail.com.
