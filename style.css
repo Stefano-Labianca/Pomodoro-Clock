@@ -1,0 +1,545 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0575E6;
+    transition: 0.7s ease-in-out;
+}
+
+/* Clock */
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 64vh;
+    flex-direction: column;
+    margin-top: 42px;
+}
+
+.clock{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+/* Clock */
+
+/* Buttons */
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.start-clock{
+    width: 150px;
+    height: 50px;
+    margin-right: 24px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+    background-color: white;
+    cursor: pointer;
+    border: solid 2px white;
+
+    color: #203A43;
+    transition: 0.2s ease-in-out;
+    flex: 1;
+}
+
+.restart-clock{
+    width: 150px;
+    height: 50px;
+    margin-left: 24px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 2px white;
+
+    color: white;
+    transition: 0.2s ease-in-out;
+    flex: 1;
+}
+
+.start-clock:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.restart-clock:hover{
+    background-color: white;
+    color: #203A43;
+}
+/* Buttons */
+
+/* Welcome Phrases */
+.phrases{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+    font-size: 32px;
+    color: white;
+    margin-bottom: 16px;
+    
+    font-style: normal;
+}
+/* Welcome Phrases */
+
+/* Counter */
+.tomato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.tomato-phrase{
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+/* Counter */
+
+/* Navigation Bar */
+nav{
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1, nav ul{
+    flex: 1;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+nav h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: #203A43;
+}
+
+/* Navigation Bar */
+
+/* Description of the Page */
+section{
+    min-height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+/* Description of the Page */
+
+/* Change Colors and Overflow */
+.start{
+    background: #11998e;
+    transition: 0.4s ease-in-out;
+    overflow-y: hidden;
+}
+
+.resume-overflow{
+    transition: 0.4s ease-in-out;
+    overflow-y: visible;
+}
+/* Change Colors */
+
+/* Hide and Resume Navigation bar */
+.hide-nav{
+    transform: translate(0px, -400px);
+    transition: 0.4s ease-in-out;
+}
+
+.resume-nav{
+    transform: translate(0px, 0px);
+    transition: 0.4s ease-in-out;
+}
+/* Hide and Resume Navigation bar */
+
+/* Hide and Resume Text */
+.hide-text{
+    opacity: 0;
+    transform: translate(0px, -200px);
+    transition: 0.5s ease-in-out;
+}
+
+.resume-text{
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: 0.5s ease-in-out;
+}
+/* Hide and Resume Text */
+
+
+/* First Half */
+.first-half{
+    background: #F27121;
+    transition: all 0.4s ease-in-out;
+    overflow-y: hidden;
+}
+/* First Half */
+
+/* Second Half */
+.second-half{
+    background: #c31432;
+    transition: all 0.4s ease-in-out;
+    overflow-y: hidden;
+}
+/* Second Half */
+
+/* Background Colors */
+.bg-active-0{
+    background: #0575E6;
+}
+
+.bg-active-1{
+    background: #c471ed;
+}
+
+.bg-active-2{
+    background: #F15F79;
+}
+
+.bg-active-3{
+    background: #B24592;
+}
+/* Background Colors */
+
+/* Arrow Icon */
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down{
+    width: 100px;
+    margin-top: 42px;
+    visibility: visible;
+    transform: translate(0px, 0px);
+    transition: 0.2s ease-in-out;
+}
+
+.hide-arrow{
+    visibility: hidden;
+    transform: translate(0px, 300px);
+    transition: 0.2s ease-in-out;
+}
+/* Arrow Icon */
+
+/* Section 1 */
+.par1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+    width: 88vh;
+    margin-top: 32px;
+}
+/* Section 1 */
+
+/* Section 2 */
+.par2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+    width: 88vh;
+    margin-top: 32px;
+}
+/* Section 2 */
+
+/* Section 3 */
+.par3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: justify;
+    width: 88vh;
+    margin-top: 32px;
+}
+
+.link-code{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-align: justify;
+    transition: 0.2s ease-in-out;
+    font-size: 24px;
+}
+
+.link-code:hover{
+    color: #203A43;
+}
+
+.to-link{
+    margin-top: 42px;
+}
+/* Section 3 */
+
+/* Burger Menu */
+.line1{
+    width: 25px;
+    height: 3px;
+    background-color: #044280;
+    margin: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.line2{
+    width: 20px;
+    height: 3px;
+    background-color: #044280;
+    margin: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.burger{
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Burger Menu */
+
+/*-- RESPONSIVE --*/
+
+/* Tablet */
+@media screen and (max-width: 1024px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Section 1 */
+    .par1{
+        font-size: 24px;
+        width: 64vh;
+        margin-top: 32px;
+    }   
+    /* Section 1 */
+
+    /* Section 2 */
+     .par2{
+        font-size: 24px;
+        width: 64vh;
+        margin-top: 32px;
+    }   
+    /* Section 2 */
+
+    /* Section 3 */
+     .par3{
+        font-size: 24px;
+        width: 64vh;
+        margin-top: 32px;
+    }   
+
+    .link-code{
+        font-size: 24px;
+        transition: 0.2s ease-in-out;
+        font-size: 22px;
+    }
+    /* Section 3 */
+
+    /* Description of the Page */
+    section h2{
+        font-size: 42px;
+    }
+    /* Description of the Page */
+
+    /* Welcome Phrases */
+    .phrases{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    /* Welcome Phrases */
+
+    /* Clock */
+    .clock{
+        font-size: 80px;
+        margin-bottom: 24px;
+    }
+    /* Clock */
+}
+
+/* Phone */
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Section 1 */
+    .par1{
+        font-size: 16px;
+        width: 40vh;
+        margin-top: 40px;
+    }   
+    /* Section 1 */
+
+    /* Section 2 */
+    .par2{
+        font-size: 16px;
+        width: 40vh;
+        margin-top: 40px;
+    }   
+    /* Section 2 */
+
+    /* Section 3 */
+    .par3{
+        font-size: 16px;
+        width: 40vh;
+        margin-top: 40px;
+    }
+
+    .link-code{
+        transition: 0.2s ease-in-out;
+        font-size: 16px;
+    }
+    /* Section 3 */
+
+    /* Description of the Page */
+
+    section h2{
+        font-size: 32px;
+    }
+    /* Description of the Page */
+
+    /* Welcome Phrases */
+    .phrases{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    /* Welcome Phrases */
+    
+    /* Clock */
+    .clock{
+        font-size: 60px;
+        margin-bottom: 24px;
+    }
+    /* Clock */
+
+    /* Buttons */
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .start-clock{
+        width: 200px;
+        height: 100px;
+
+        font-size: 24px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    
+    .restart-clock{
+        width: 200px;
+        height: 100px;
+
+        font-size: 24px;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+    /* Buttons */   
+
+    /* Icon */
+    .arrow-down{
+        width: 50px;
+        margin-top: 42px;
+        z-index: -1;
+    }
+    /* Icon */
+
+    /* Counter */
+    .tomato-phrase{
+        font-size: 16px;
+    }
+    /* Counter */
+
+    /* Navigation Bar */
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 50vh;
+        top: 10vh;
+        background-color: #1884f0;
+        width: 40%;
+        transform: translateX(100%);
+        border-radius: 3px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .burger{
+        display: block;
+    }
+    /* Navigation Bar */
+    .nav-active{
+        transform: translateX(0%);
+        box-shadow: 15px 3px 20px 7px #044280;
+        transition: 0.4s ease-in-out;
+    }
+
+    .nav-disable{
+        transform: translateX(100%);
+        transition: 0.4s ease-in-out;
+    }
+}

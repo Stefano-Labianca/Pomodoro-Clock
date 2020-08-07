@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header> <!-- NAVIGATION BAR -->
+        <nav class="navbar">
+            <h1> Pomodoro Clock </h1>
+            <ul class="nav-links">
+                <li><a href="#WhatIsIt" class="">What is it?</a></li>
+                <li><a href="#AboutMe" class="">About me</a></li>
+                <li><a href="#GitHub" class="">GitHub</a></li>
+            </ul>
+
+           <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+           </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="sections">
+
+            <!-- CLOCK -->
+            <section class="main-part"> 
+                <div class="timer">
+                    <div class="time">
+                    
+                        <div class="text">
+                            <h1 class="phrases"></h1>
+                        </div>
+                    
+                        <h1 class="clock">25:00</h1>
+                    
+                        <div class="buttons">
+                            <input type="button" value="Start" class="start-clock">
+                            <input type="button" value="Restart" class="restart-clock">
+                        </div>
+                    
+                        <div class="tomato">
+                            <h3 class="tomato-phrase"> Pomodoro Counter:  <span class="tomato-counter"> 0 </span></h3>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <img src="./keyboard_arrow_down-white-18dp.svg" class="arrow-down">
+                    </div>
+                </div>
+            </section>
+
+            <!-- DESCRIPTIONS -->
+            <section class="what-is-it" id="WhatIsIt"> 
+                <h2>What Is It?</h2>
+
+                <div>
+                    <p class="par1">
+                        This is the "Pomodoro Technique" and this is a time management method developed by 
+                        Francesco Cirillo in the late 1980s.
+                        <br/> <br/>
+                        This method use a timer set to 25 minutes separeted by short 
+                        breaks of 5 minutes and after 100 minutes you can take a break of 15 or 30 minutes. 
+                        <br/> <br/>
+                        Simple right? The answer is YES, but when the timer is on, you can't use your phone to do other 
+                        tasks that makes you to distract, so get in work and have fun!
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="about-me" id="AboutMe">
+                <h2>About Me</h2>
+
+                <div>
+                    <p class="par2">
+                        Let me introduce myself. Hello my name is Stefano, I am 17 years old and I am an italian student.
+                        This is my first public project about the "Pomodoro Technique", a very useful techique to increase your 
+                        productivity and time management. 
+                        <br/> <br/>
+                        I have a lot of passions, but I really enjoy doing some IT programs and I have a lot of them to do in the future. <br/>
+                        <br/> <br/>
+                        In this period I want to learn more thinks about JavaScript, Node.js and Electron to performe one of the main project I want to do.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="github" id="GitHub">
+                <h2>GitHub</h2>
+
+                <div>
+                    <p class="par3"> 
+                        If you want to see the complete source code, you can check my repository on GitHub. 
+                        <br/> <br/>
+                        Don't worry, my project is free and open source. I hope you enjoy and support my work with some feedback.
+                        <br />
+                    </p>
+
+                    <div class="to-link">
+                        <a href="#" class="link-code"> Click here for the source code. </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+<script src="./app.js"></script>
+
+</html>
